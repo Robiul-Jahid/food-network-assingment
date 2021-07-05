@@ -1,0 +1,40 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#top-banner {
+    display: flex;
+    color: rgb(68, 68, 68);
+}
+h1 {
+    font-size: 50px;
+}
+.half-width {
+    width: 45%;
+    padding: 5%;
+}
+.discription {
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.half-width h1 span {
+    color: orangered;
+}
+.half-width p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 140px;
+}
+
+.half-width img {
+    width: 90%;
+}
+.gradient-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
