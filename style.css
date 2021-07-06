@@ -4,11 +4,17 @@
     padding: 0;
 }
 .logo {
+    text-decoration: none;
     font-family: "Lobster", cursive;
     font-size: 45px;
-    padding-left: 30px;
-    color: salmon;
-    background-image: linear-gradient(royalblue, purple);
+    padding: 10px 40px;
+
+    background-color: salmon;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
 #top-banner {
     display: flex;
@@ -88,15 +94,7 @@ h2 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-footer {
-    text-align: center;
-    color: rgb(136, 129, 129);
-    background-color: black;
-    height: 15%;
-}
-footer h2 span {
-    color: orangered;
-}
+
 #social-media {
     display: flex;
     justify-content: space-between;
@@ -105,4 +103,37 @@ footer h2 span {
     box-shadow: 10px 10px 50px rgb(214, 205, 205);
     border-radius: 15px;
     box-sizing: border-box;
+}
+#review-area h2 {
+    padding-left: 30px;
+}
+.customer {
+    display: flex;
+}
+.customer div {
+    width: 40%;
+    text-align: center;
+    padding: 10px 45px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    margin: 2%;
+    border-left: 7px solid limegreen;
+}
+.star {
+    color: gold;
+}
+.user-profile {
+    height: 60px;
+    width: 60px;
+}
+footer {
+    text-align: center;
+    color: rgb(136, 129, 129);
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 55px;
+}
+footer h2 span {
+    color: orangered;
 }
