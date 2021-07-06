@@ -76,12 +76,15 @@ h2 {
     display: flex;
     width: 100%;
 }
+.flex-item h2 {
+    padding: 20px 0;
+}
 .food-recipies {
     width: 30%;
-    padding: 10px;
+    padding: 20px;
     margin: 20px 3%;
     box-shadow: 10px 10px 30px rgb(214, 206, 206);
-    border-radius: 15px;
+    border-radius: 28px;
 }
 .food-recipies img {
     width: 100%;
@@ -93,6 +96,9 @@ h2 {
     margin-left: 23%;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+.recipie-header h2 {
+    padding: 20px 0;
 }
 
 #social-media {
@@ -126,6 +132,15 @@ h2 {
     height: 60px;
     width: 60px;
 }
+.contact-Us {
+    text-align: center;
+    padding: 30px 40px;
+    margin: 20px 110px;
+    box-shadow: 10px 10px 30px gray;
+    border-bottom: 8px solid blue;
+    border-left: 8px solid blueviolet;
+    color: rgb(63, 55, 55);
+}
 footer {
     text-align: center;
     color: rgb(136, 129, 129);
@@ -136,4 +151,7 @@ footer {
 }
 footer h2 span {
     color: orangered;
+}
+footer small p {
+    padding-top: 20px;
 }
